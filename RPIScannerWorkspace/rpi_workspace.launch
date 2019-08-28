@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="rpi_scanner_pkg" type="mainnode.py" name="main_node"  output="screen"/>
+    <node pkg="rpi_scanner_pkg" type="motornode.py" name="motor_node"  output="screen"/>
+    <node pkg="rpi_scanner_pkg" type="rotaryencodernode.py" name="rotary_encoder_node"  output="screen"/>
+    <node pkg="rpi_scanner_pkg" type="sensornode.py" name="sensor_node"  output="screen"/>
+</launch>

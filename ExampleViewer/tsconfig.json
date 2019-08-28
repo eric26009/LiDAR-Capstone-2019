@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "paths": { "*": ["node_modules/three/src/Three.d.ts"] },
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["src/*", "lib/*"]
+}

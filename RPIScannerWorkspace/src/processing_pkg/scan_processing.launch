@@ -1,0 +1,5 @@
+<launch> 
+    <node pkg="processing_pkg" type="test_node.py" name="test1"  output="screen"/>
+    <node pkg="processing_pkg" type="data_node.py" name="data"  output="screen"/>
+    <node pkg="processing_pkg" type="concat_node.py" name="concat"  output="screen"/>
+</launch>
